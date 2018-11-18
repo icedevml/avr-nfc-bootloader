@@ -5,7 +5,7 @@ Based on optiboot, works with CV520 and MFRC522. Check [optiboot.c#722](https://
 
 ## Why?
 
-Because sometimes you don't have physical access to the device but you still want to be able to reprogram it.
+Because sometimes you don't have physical access to the device's debug connectors but you still want to be able to reprogram it.
 
 ## Commands I was using:
 
