@@ -23,3 +23,9 @@ Program optiboot and fuses:
 ```
 avrdude -v -patmega164p -cusbasp "-Uflash:w:optiboot_atmega164p_UART0_115200_8000000L.hex:i" -U lfuse:w:0xE2:m -U hfuse:w:0xD8:m -U lock:w:0xCC:m -B10
 ```
+
+## Android app to interact with bootloader
+See: https://github.com/icedevml/avr-nfc-bootloader-app
+
+## Notes
+Tested with ATmega-164PA, should work with any other microprocessor which is supported by optiboot, but you need to adjust `Makefile.MCUdude` manually for your microprocessor.
