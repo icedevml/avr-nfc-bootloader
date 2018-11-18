@@ -29,3 +29,5 @@ See: https://github.com/icedevml/avr-nfc-bootloader-app
 
 ## Notes
 Tested with ATmega-164PA, should work with any other microprocessor which is supported by optiboot, but you need to adjust `Makefile.MCUdude` manually for your microprocessor.
+
+Please remember that values in `secret.h.dist` and `pinout.h.dist` are exemplary and you need to adjust them to match your setup.
