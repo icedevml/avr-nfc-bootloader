@@ -1,7 +1,7 @@
 MFRC522 Bootloader for AVR
 ==========================
 
-Based on optiboot, works with CV520 and MFRC522.
+Based on optiboot, works with CV520 and MFRC522. Check [https://github.com/icedevml/avr-nfc-bootloader/blob/660e79389fe0a9c1189acb1623ef8ab1f8a84fdc/optiboot.c#L722](optiboot.c#722) for actual differences between normal UART bootloader and this MFRC522 NFC bootloader.
 
 ## Why?
 
